@@ -116,7 +116,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8">
             {/* Menteviva Tab / Card */}
             <a 
-              href="https://menteviva-ai.vercel.app" 
+              href="https://mentevia.konnectia.net" 
               target="_blank" 
               rel="noopener noreferrer"
               className="group block border border-[#2C3539] p-12 hover:border-[#798C8A] transition-all bg-[#1F272B] hover:bg-[#252E32]"
