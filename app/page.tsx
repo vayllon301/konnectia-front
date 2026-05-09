@@ -64,8 +64,8 @@ export default function Home() {
           <a href="#" className="hover:text-[#2C3539] transition-colors pb-1 border-b border-transparent hover:border-[#2C3539]">{t.nav_philosophy}</a>
           <a href="#products" className="hover:text-[#2C3539] transition-colors pb-1 border-b border-transparent hover:border-[#2C3539]">{t.nav_products}</a>
           <a href="#" className="hover:text-[#2C3539] transition-colors pb-1 border-b border-transparent hover:border-[#2C3539]">{t.nav_contact}</a>
-          
-          <button 
+
+          <button
             onClick={() => setLang(lang === 'es' ? 'en' : 'es')}
             className="flex items-center gap-2 border border-[#D5D0C5] rounded-full px-3 py-1 hover:border-[#2C3539] text-[#2C3539] transition-colors"
             title="Switch Language"
@@ -81,8 +81,8 @@ export default function Home() {
         <div className="flex-1 text-center lg:text-left">
           <p className="uppercase tracking-[0.3em] text-xs mb-8 text-[#8E9B9A]">{t.hero_subtitle}</p>
           <h1 className="text-5xl md:text-7xl leading-[1.1] mb-8 font-normal text-[#1A2124]">
-            {t.hero_title_1} <br className="hidden md:block"/>
-            <span className="italic text-[#798C8A]">{t.hero_title_2}</span><br/>
+            {t.hero_title_1} <br className="hidden md:block" />
+            <span className="italic text-[#798C8A]">{t.hero_title_2}</span><br />
             {t.hero_title_3}
           </h1>
           <p className="text-lg md:text-xl text-[#5A666B] max-w-xl mx-auto lg:mx-0 mb-12 font-light leading-relaxed">
@@ -93,7 +93,7 @@ export default function Home() {
             <ArrowRight size={16} className="group-hover:translate-x-2 transition-transform" />
           </a>
         </div>
-        
+
         <div className="flex-1 w-full relative">
           <div className="aspect-[4/5] bg-[#E8E6E1] w-full max-w-md mx-auto relative flex items-center justify-center p-8">
             <div className="absolute inset-4 border border-[#D5D0C5]"></div>
@@ -115,9 +115,9 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 gap-8">
             {/* Menteviva Tab / Card */}
-            <a 
-              href="https://mentevia.konnectia.net" 
-              target="_blank" 
+            <a
+              href="https://menteviva.konnectia.net"
+              target="_blank"
               rel="noopener noreferrer"
               className="group block border border-[#2C3539] p-12 hover:border-[#798C8A] transition-all bg-[#1F272B] hover:bg-[#252E32]"
             >
